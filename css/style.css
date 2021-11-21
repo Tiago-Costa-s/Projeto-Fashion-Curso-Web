@@ -1,0 +1,169 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*centralizando pagina*/
+#principal{
+    width: 1024px;
+    margin: auto;
+}
+
+/*Centralizando o espaço e a cor do header onde a logo fica*/
+header{
+    height:50px ;
+    background-color: #162028;
+    position: relative;
+}
+
+/* Posiçionando a logo*/
+.logo1{
+    margin: 0px 0 0 143px;
+}
+
+
+.cabeça nav{
+    position: absolute;
+    top: 0;
+    right: 0;  
+}
+
+
+.cabeça ul{
+    margin: 0;
+    padding: 0;
+}
+
+.cabeça li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 0 15px 0 0;
+    padding: 15px;    
+}
+
+
+/* Estilizar texto do menu*/
+.cabeça a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;   
+    transition: color 0.5s linear;    
+}
+
+
+.cabeça a:hover{
+    color: rgb(255, 255, 255);
+
+}
+
+
+/* Alinhamento portifolio */
+.portfolio{
+    padding: 60px 100px;
+    text-align: center;    
+}
+
+
+/*Estilo h1*/
+.portfolio h1{
+    font-size: 30px;
+    color: #292929;   
+}
+
+.portfolio p{
+    font-size: 16px;
+    line-height: 2.5;
+    color: rgb(95, 95, 95);
+}
+
+
+.gallery{
+    color: rgb(95, 95, 95);
+    padding: 0 100px 50px 100px;
+    
+    overflow: auto;
+}
+
+
+.card{
+    width: 31%;
+    float: left;
+    text-align: center;    
+}
+
+
+.gallery-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+.about{        
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+
+.about h2{
+    text-align: left;
+    font-size: 51px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;    
+}
+
+
+.about p{
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: left;
+    width: 70%;
+}
+
+
+#contato{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;    
+    margin: 50px 0px 50px 0px;
+    color: #003d52;
+}
+
+
+#contato p{
+    font-style: normal;
+}
+
+
+.mapa{
+    width: 100%;
+    padding: 60px 60px 60px 60px;    
+}
+
+
+footer{    
+    margin-top: 50px;
+    padding: 25px;
+    background-color: rgb(0, 0, 0);
+    color:#425564;
+}
+
+
+footer p{
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 6px;
+    color:#425564;
+}
+
+
